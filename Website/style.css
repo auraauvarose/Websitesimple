@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* bagian atas */
+header {
+  height: 70px;
+  width: 100%;
+}
+header h3 {
+  float: left;
+  padding: 20px 0 20px 10px;
+}
+header span {
+  color: rgb(46, 73, 208);
+  text-decoration: underline;
+}
+.logo img {
+  width: 40px;
+  float: left;
+  margin: 15px 0 20px 20px;
+}
+
+.nav li a {
+  float: right;
+  display: flex;
+  padding: 20px 30px 20px 0;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+
+.nav li a:hover {
+  color: rgb(56, 207, 58);
+  font-size: 20px;
+}
+
+/* bagian artikel */
+main {
+  height: 900px;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.blog h1,
+h3 {
+  text-align: center;
+}
+
+.artikel {
+  padding-top: 10px;
+}
+.artikel img {
+  float: left;
+  max-width: 100%;
+  height: auto;
+  width: 700px;
+}
+
+.wrapper p {
+  border-left: 3px solid red;
+  margin-left: 710px;
+  padding-left: 5px;
+}
+
+/* bagian bawah */
+footer {
+  background-color: rgb(189, 168, 168);
+  height: 70px;
+}
+footer p {
+  text-align: left;
+  color: black;
+  padding: 20px 0 20px 20px;
+  font-size: 25px;
+}
+.icon {
+  float: right;
+  padding: 15px 20px 15px 0;
+  font-size: 40px;
+}
+.icon a {
+  color: rgb(0, 0, 0);
+}
+.icon a:hover {
+  color: rgb(51, 22, 214);
+  font-size: 45px;
+}
